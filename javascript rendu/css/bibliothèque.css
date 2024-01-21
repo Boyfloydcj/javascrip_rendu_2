@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.swiper-slide {
+    height: 60vh;
+}
+
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-left: 100px;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 24px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+    text-transform: lowercase;
+}
+
+body .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+}
+
+body .swiper-pagination-active {
+    background: orangered;
+}
+
+body .swiper-button-next,
+body .swiper-button-prev {
+    color: orangered;
+}
+
+.img1 {
+    background-image: url('../img/godzilla-minus-one-movie-2023-featured.avif');
+    background-size: cover;
+}
+.img2 {
+    background-image: url(../img/godzilla_vs_kong3.avif);
+    background-size: cover;
+}
+.img3 {
+    background-image: url(../img/Tomoyuki_Tanaka.webp);
+}
+
+.text {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text2 {
+    background-color: black;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
